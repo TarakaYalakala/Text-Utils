@@ -1,0 +1,21 @@
+.color1 {
+    background-color: rgb(21, 21, 73);
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.color2 {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.color3 {
+    background-color: rgb(100, 35, 35);
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
