@@ -60,10 +60,10 @@ export default function TextFrom(props) {
     <h2>{props.heading}</h2>
   <textarea className="form-control" id="mybox" rows="8" onChange={handelChange} value={title} ></textarea>
 </div>
-<button className="btn btn-primary mx-2" onClick={handelClick}>Convert to Uppercase</button>
-<button className="btn btn-primary mx-2" onClick={handelLoClick}>Convert to Uppercase</button>
-<button className="btn btn-primary mx-2" onClick={handelclear}>Clear</button>
-<button className="btn btn-primary mx-2 btn btn-secondary" onClick={handelCopy} id='Btncopy'  data-bs-toggle="tooltip" data-bs-placement="top" title="Copy Text">Copy Text</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handelClick}>Convert to Uppercase</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handelLoClick}>Convert to Uppercase</button>
+<button className="btn btn-primary mx-2 my-3" onClick={handelclear}>Clear</button>
+<button className="btn btn-primary mx-2 btn btn-secondary my-3" onClick={handelCopy} id='Btncopy'  data-bs-toggle="tooltip" data-bs-placement="top" title="Copy Text">Copy Text</button>
 {/* <button onClick={handleDownload}>Download</button> */}
 
 
