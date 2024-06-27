@@ -2,4 +2,4 @@
  
 This is TextUtils 
 <br>
-author - Taraka
+Author - Taraka
