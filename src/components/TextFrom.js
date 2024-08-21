@@ -62,7 +62,7 @@ export default function TextFrom(props) {
 </div>
 <button className="btn btn-primary mx-2 my-3" onClick={handelClick}>Convert to Uppercase</button>
 <button className="btn btn-primary mx-2 my-3" onClick={handelLoClick}>Convert to Uppercase</button>
-<button className="btn btn-primary mx-2 my-3" onClick={handelclear}>Clear</button>
+{/* <button className="btn btn-primary mx-2 my-3" onClick={handelclear}>Clear</button> */}
 <button className="btn btn-primary mx-2 btn btn-secondary my-3" onClick={handelCopy} id='Btncopy'  data-bs-toggle="tooltip" data-bs-placement="top" title="Copy Text">Copy Text</button>
 {/* <button onClick={handleDownload}>Download</button> */}
 
